@@ -3,9 +3,9 @@ import joblib
 import helper
 
 # load model
-model = joblib.load(open('model/l1_l2_classification.pkl','rb'))
-model_l1_l2 = joblib.load(open('model/model_l1_l2.pkl','rb'))
-model_l3 = joblib.load(open('model/model_l3.pkl','rb'))
+model = joblib.load(open('l1_l2_classification.pkl','rb'))
+model_l1_l2 = joblib.load(open('model_l1_l2.pkl','rb'))
+model_l3 = joblib.load(open('model_l3.pkl','rb'))
 
 enc = {
        'L1/L2' : 0,
