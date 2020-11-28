@@ -1,6 +1,6 @@
 flask
 joblib
-nltk
+sklearn
 textblob
 googletrans
 gunicorn 
