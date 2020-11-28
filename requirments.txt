@@ -3,3 +3,4 @@ joblib
 nltk
 textblob
 googletrans
+gunicorn 
